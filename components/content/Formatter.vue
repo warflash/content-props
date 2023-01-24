@@ -1,7 +1,7 @@
 <template>
-  <div>
-    {{ props.text }}
-  </div>
+  <NuxtLink>
+    <span v-html="props.text"> </span>
+  </NuxtLink>
 </template>
 
 <script setup>
